@@ -1,0 +1,24 @@
+打包语法：gulp entry -p
+1.window.enumData[] 获取前端页面所需的枚举值
+2.moment.format() 转换目标对象的格式
+3.getenumDataValue('') 获取某个枚举值数组
+4.store.getState() 获取store中的所有数据
+5.$.inArray('',[])==-1? 判断某个字段在[]是否存在，不存在为-1
+6.react的生命周期：
+  组件的生命周期分成三个状态：
+1.Mounting：已插入真实 DOM
+2.Updating：正在被重新渲染
+3.Unmounting：已移出真实 DOM
+  三种状态共计五种处理函数（will 函数在进入状态之前调用，did 函数在进入状态之后调用）：
+componentWillMount()
+componentDidMount()
+componentWillUpdate(object nextProps, object nextState)
+componentDidUpdate(object prevProps, object prevState)
+componentWillUnmount()
+  React 还提供两种特殊状态的处理函数：
+componentWillReceiveProps(object nextProps)：已加载组件收到新的参数时调用
+shouldComponentUpdate(object nextProps, object nextState)：组件判断是否重新渲染时调用
+7.$.extend(ture,{},对象) 将对象复制到{}中，ture为深度克隆，false为浅克隆
+8.$(selector).attr(attribute) 获取selector中的attribute对象
+9.new Date().getTime() 获取当前时间的毫秒数
+tooltip()提示工具  trim()去除数据两端的多余空格
