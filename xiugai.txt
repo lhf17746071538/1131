@@ -1,3 +1,6 @@
 main(){
   console.log("修改文件")
 }
+click(){
+  alert("点击事件")
+}
