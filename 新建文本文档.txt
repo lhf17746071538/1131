@@ -2,3 +2,5 @@ mian(){
   console.log("«Î ‰»Î")
 }
 adla;dla;ld
+
+31313
