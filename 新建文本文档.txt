@@ -1,3 +1,4 @@
 mian(){
   console.log("«Î ‰»Î")
 }
+adla;dla;ld
